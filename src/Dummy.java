@@ -1,13 +1,19 @@
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Optional;
 
 public class Dummy {
     public static void main(String s[])
     {
-        checkString();
+        Optional<String> data = Optional.of("TrialValue");
+        System.out.println(data.get());
+        data = Optional.empty();
+        System.out.println(data.get());
+       // checkString();
         //executeThreads();
         //checkUmodifiable();
+        
     }
 
     private static void checkString()

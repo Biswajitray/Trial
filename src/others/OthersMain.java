@@ -1,7 +1,7 @@
 package others;
 
-import com.sun.istack.internal.NotNull;
 import org.apache.commons.io.FilenameUtils;
+import org.jetbrains.annotations.NotNull;
 
 import java.io.*;
 import java.net.Inet6Address;
@@ -18,7 +18,7 @@ public class OthersMain {
       //  checkIpv6();
       //  checkIPv6Address();
      /*   // stealth.database.location=C:\\NetScout\\rtm\\database
-        // PAHOME=C:\\NetScout\\rtm\\pa
+        // PAHOME=C:\\NetScout\\rtm\\stackpa
        //  String location="C:\\NetScout\\rtm\\pa\\filters";
         //FileSystem fs = FileSystems.getDefault();
         //System.out.println(location);
